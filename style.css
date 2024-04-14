@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* main heading */
+h1 {
+    background-color: #081b31;
+    color: #fff;
+    text-align: center;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+/* rock paper scissor choices */
+.choice {
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+
+}
+
+.choice:hover {
+    /* opacity: 0.5; */
+    cursor: pointer;
+    background-color: #081b31;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+/* scoreboard */
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 5rem;
+    margin-top: 3rem;
+}
+
+#user-score,
+#comp-score {
+    font-size: 4rem;
+
+}
+
+/* message container */
+.msg-container {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#msg {
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+
+/* reset button */
+
+.reset {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#reset-btn {
+    font-size: 2rem;
+    background-color: #3FA7D6;
+    color: #E7E08B;
+    border-radius: 0.4rem;
+    padding: 0.3rem;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    border: none;
+   
+}
